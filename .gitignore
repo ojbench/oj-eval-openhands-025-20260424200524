@@ -1,0 +1,30 @@
+*.o
+*.d
+eval
+cheat
+anticheat
+checkans
+normalize
+code
+
+# baseline cheater
+cheat-baseline1-spin-and-swap
+cheat-baseline1-dead-code
+anticheat-baseline1-detect-cfg-sim
+anticheat-baseline1-static-analysis
+
+*-submit*
+
+*.out
+*.log
+*.local
+
+compile_commands.json
+.cache
+.vscode
+.idea
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
